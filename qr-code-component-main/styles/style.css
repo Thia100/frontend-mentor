@@ -1,0 +1,90 @@
+:root{
+    --ff:"Outfit", sans-serif;
+    --fs-p:15px;
+    --fw-400:400;
+    --fw-700:700;
+
+    --padding:1.25rem;
+
+    --bg-color:#d6e2f0;
+    --card-bg:	#ffffff;
+    --p-text-color:#68778d;
+    --bold-text-color:	#1f3251;
+
+    --attribution-a-color:#3e52a3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--ff);
+    background-color: var(--bg-color);
+}
+
+#container{
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding);
+    margin: 0 auto; 
+}
+
+.card{
+    background-color: var(--card-bg);
+    width: 340px;
+    height: 520px;
+    padding: var(--padding);
+    border-radius: 1.25rem;
+}
+
+.qrcode-image img{
+    width: 300px;
+    height: auto;
+    border-radius: 1.25rem;
+}
+
+.text{
+    margin-top: 1.4rem;
+}
+
+.text h2{
+    margin-bottom: 1rem;
+    color: var(--bold-text-color);
+}
+
+.text p{
+    color: var(--p-text-color);
+    padding: 0 2rem;
+}
+
+.attribution{
+    padding:  0 1.25rem;
+    text-align: center;
+}
+
+p{
+    font-size: var(--fs-p);
+}
+
+.attribution a{
+    color: var(--attribution-a-color);
+    text-decoration: none;
+}
+
+.attribution a:hover{
+    color: rgb(103, 13, 13);
+}
+
+
+
+
+
+
+
+
