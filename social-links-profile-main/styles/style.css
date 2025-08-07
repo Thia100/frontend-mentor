@@ -1,0 +1,129 @@
+:root{
+    --card-bg:#1f1f1f;
+    --bg:#141414;
+    --link-bg:#333333;
+    --text-color:#ffffff;
+    --highlight:#c5f82a;
+
+    --fs-p:14px;
+
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+
+    --padding:1.4rem;
+}
+
+
+*{
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+
+
+
+
+.card{
+    background-color: var(--card-bg);
+    border-radius: 18px;
+    width: 350px;
+    height: 650px;
+    padding: var(--padding);
+}
+
+.card img{
+    width:140px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.card .name{
+    color: var(--text-color);
+    margin-top: var(--padding);
+    font-weight: var(--fw-700);
+    letter-spacing: 1.2px;
+}
+
+.card .place{
+    color: var(--highlight);
+    font-weight: var(--fw-600);
+    margin-top: .4rem;
+}
+
+.card .job-hobby{
+    font-size: var(--fs-p);
+    color: var(--text-color);
+    margin-top: 2rem;
+}
+
+
+
+
+
+.social-links{
+    margin-top: 40px;
+}
+
+.social-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.social-links li a {
+  display: inline-block;
+  width: 300px;
+  height: 45px;
+  background-color: var(--link-bg);
+  color: var(--text-color);
+  text-align: center;
+  line-height: 45px;
+  border-radius: 10px;
+  font-weight: var(--fw-600);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-links li a:focus, .social-links li a:hover{
+    background-color: var(--highlight);
+    color: black;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.attribution{
+    color: var(--text-color);
+    text-align: center;
+}
+.attribution a{
+    color: var(--attribution-a-color);
+    text-decoration: none;
+}
+
+.attribution a:hover{
+    color:var(--highlight);
+}
+.attribution a:focus{
+    color: var(--highlight);
+}
