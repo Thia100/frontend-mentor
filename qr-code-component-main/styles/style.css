@@ -1,6 +1,6 @@
 :root{
     --ff:"Outfit", sans-serif;
-    --fs-p:15px;
+    --fs-p:1rem;
     --fw-400:400;
     --fw-700:700;
 
@@ -25,8 +25,8 @@ body{
     background-color: var(--bg-color);
 }
 
-#container{
-    height: 90vh;
+.container{
+    min-height: 90vh;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -37,8 +37,8 @@ body{
 
 .card{
     background-color: var(--card-bg);
-    width: 340px;
-    height: 520px;
+    max-width: 340px;
+    max-height: 520px;
     padding: var(--padding);
     border-radius: 1.25rem;
 }
@@ -53,7 +53,7 @@ body{
     margin-top: 1.4rem;
 }
 dis
-.text h2{
+.text h1{
     margin-bottom: 1rem;
     color: var(--bold-text-color);
 }

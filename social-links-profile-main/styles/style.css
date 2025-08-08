@@ -41,8 +41,8 @@ body{
 .card{
     background-color: var(--card-bg);
     border-radius: 18px;
-    width: 350px;
-    height: 650px;
+    max-width: 350px;
+    min-height: 600px;
     padding: var(--padding);
 }
 
@@ -52,11 +52,16 @@ body{
     border-radius: 50%;
 }
 
+
+
+
+
+
+
 .card .name{
     color: var(--text-color);
     margin-top: var(--padding);
     font-weight: var(--fw-700);
-    letter-spacing: 1.2px;
 }
 
 .card .place{
@@ -114,7 +119,11 @@ body{
 
 .attribution{
     color: var(--text-color);
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+   
 }
 .attribution a{
     color: var(--attribution-a-color);
